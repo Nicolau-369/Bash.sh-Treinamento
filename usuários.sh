@@ -1,5 +1,5 @@
 #!/bin/bash
-#usuarios.sh
+#usuários.sh
 #
 #Mostra os logins e nomes de usuários do Sistema
 #Obs.: Lê dados do arquivo /etc/passwd
