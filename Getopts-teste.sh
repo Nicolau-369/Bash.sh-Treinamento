@@ -1,5 +1,5 @@
 #!/bin/bash
-#getopts-teste.sh
+#Getopts-teste.sh
 #
 #Nicolau, Fevereiro de 2024
 #Loop que processa todas as opções da linha de comando.
