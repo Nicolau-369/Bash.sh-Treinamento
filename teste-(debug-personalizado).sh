@@ -1,5 +1,5 @@
 #!/bin/bash
-#teste(debug persolnalizado).sh
+#teste-(debug-persolnalizado).sh
 #
 #mostra uma palvra ($TXT) em maúsculas e com exclamações
 #exemplo: foo -> !!!!!FOO!!!!!
