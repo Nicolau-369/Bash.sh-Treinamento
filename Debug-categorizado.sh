@@ -1,5 +1,5 @@
 #!/bin/bash
-#debug-categorizado.sh
+#Debug-categorizado.sh
 #
 #Exemplo de Debug categorizado em três níveis
 DEBUG=$ {1: -0}     #Passe o nível pelo $1
