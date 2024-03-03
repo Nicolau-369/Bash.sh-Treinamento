@@ -1,5 +1,5 @@
 #!/bin/bash
-#debug(simples).sh
+#Debug(simples).sh
 #
 #mostra uma palavra ($TXT) em maiúsculas e com exclamações
 #exemplo -> foo !!!!!FOO!!!!!
