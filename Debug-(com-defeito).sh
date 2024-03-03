@@ -1,5 +1,5 @@
 #!/bin/bash
-#debug-(com-defeito).sh
+#Debug-(com-defeito).sh
 #
 #mostra uma palavra ($TXT) em maiúsculas e conhecemos
 #exemplo -> foo !!!!!FOO!!!!!
