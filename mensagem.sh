@@ -42,3 +42,24 @@ else
     # Não usar cores
     echo "$MENSAGEM"
 fi
+# Processando as configurações encontradas
+case "$chave" in
+
+UsarCores)
+    [ "$valor" = 'ON' ] && USAR_CORES=1
+    ;;
+CorFundo)
+    COR_FUNDO=$valor
+    ;;
+CorLetra)
+    COR_LETRA=$valor
+    ;;
+Mensagem)
+    MENSAGEM=$valor
+    ;;
+*)
+    echo "Erro no arquivo de configuração"
+    echo "Opção desconhecida '$chave'"
+    exit 1
+    ;;
+esac
