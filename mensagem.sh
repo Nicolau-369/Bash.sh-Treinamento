@@ -11,3 +11,9 @@ USAR_CORES=0                #config: UsarCores
 COR_LETRA=                  #config: CorLetra
 COR_FUNDO=                  #config: CorFundo
 MENSAGEM='Mensagem padrão'  #config: Mensagem
+#Loop para ler linha a linha a configuração, guardando em $LINHA
+while read LINHA; do
+    #Comando vazio, que não faz nada
+    :
+done < "$CONFIG"
+    
