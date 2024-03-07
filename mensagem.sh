@@ -16,4 +16,12 @@ while read LINHA; do
     #Comando vazio, que não faz nada
     :
 done < "$CONFIG"
-    
+# Configurações lidas, mostre a mensagem
+if [ $USAR_CORES -eq 1 ]; then
+    # Mostrar mensagem colorida
+    # Exemplo: \033[40;32mOlá\033[m
+    echo -e "\033[$COR_FUNDO;${COR_LETRA}m$MENSAGEM\033[m"
+else
+    # Não usar cores
+    echo "$MENSAGEM"
+fi
